@@ -312,7 +312,7 @@ const PRODUCT = {
       result.innerHTML = `<div class="alert alert-success mt-3" role="alert">
           <strong>Thank you, ${esc(data.get('name'))}!</strong>
           We received your request for <strong>${esc(data.get('qty'))} × ${esc(data.get('model'))}</strong>.
-          A TechNest advisor will contact you at ${esc(data.get('email'))} within 24 hours.
+          A TechShop advisor will contact you at ${esc(data.get('email'))} within 24 hours.
         </div>`;
       form.reset();
       form.classList.remove('was-validated');
@@ -320,7 +320,6 @@ const PRODUCT = {
     });
   }
 
-  /* ---------- Init ---------- */
   document.addEventListener('DOMContentLoaded', () => {
     buildSharedUI();
     renderCart();
