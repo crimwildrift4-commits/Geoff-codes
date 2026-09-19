@@ -4,7 +4,7 @@
 const PRODUCT = {
     id: 'ASUS-TUF-F15(2022)',
     name: 'ASUS TUF F15(2022) Gaming Laptop',
-    img: 'c:\\Users\\Geoff\\Downloads\\usedes website\\asus-tuf-15-featured_kgq2.1024.webp' 
+    img: 'image/TUF15 ASUS.png' 
   };
   const VARIANTS = {
     '16': { label: '16GB RAM · 512GB SSD',  price: 89990,  old: 104990 },
